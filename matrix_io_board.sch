@@ -16061,7 +16061,7 @@ Parts Updated:
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="GND38" library="pinhead" deviceset="PINHD-1X1" device="" value="GD"/>
+<part name="GD2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="1210"/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
@@ -16094,8 +16094,8 @@ Parts Updated:
 <part name="RX" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="PWRCTL" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="AUX" library="microbuilder" deviceset="TESTPOINT" device="ROUND2MM"/>
-<part name="GND26" library="pinhead" deviceset="PINHD-1X1" device="" value="GD"/>
-<part name="5V1" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="GD1" library="pinhead" deviceset="PINHD-1X1" device="" value="GD"/>
+<part name="5V." library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="OFFSW" library="pinhead" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
@@ -16231,7 +16231,7 @@ Parts Updated:
 <instance part="GND28" gate="1" x="121.92" y="299.72"/>
 <instance part="P+15" gate="1" x="421.64" y="347.98"/>
 <instance part="GND30" gate="1" x="421.64" y="307.34"/>
-<instance part="GND38" gate="G$1" x="414.02" y="320.04" rot="R180"/>
+<instance part="GD2" gate="G$1" x="414.02" y="320.04" rot="R180"/>
 <instance part="GND40" gate="1" x="109.22" y="165.1"/>
 <instance part="L1" gate="G$1" x="271.78" y="317.5" rot="R90"/>
 <instance part="C13" gate="G$1" x="284.48" y="309.88"/>
@@ -16265,8 +16265,8 @@ Parts Updated:
 <instance part="RX" gate="G$1" x="228.6" y="119.38"/>
 <instance part="PWRCTL" gate="G$1" x="99.06" y="330.2" rot="R180"/>
 <instance part="AUX" gate="G$1" x="388.62" y="228.6" rot="R180"/>
-<instance part="GND26" gate="G$1" x="414.02" y="312.42" rot="R180"/>
-<instance part="5V1" gate="G$1" x="414.02" y="342.9" rot="R180"/>
+<instance part="GD1" gate="G$1" x="414.02" y="312.42" rot="R180"/>
+<instance part="5V." gate="G$1" x="414.02" y="342.9" rot="R180"/>
 <instance part="OFFSW" gate="G$1" x="269.24" y="170.18"/>
 </instances>
 <busses>
@@ -16526,12 +16526,12 @@ Parts Updated:
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="416.56" y1="327.66" x2="421.64" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="327.66" x2="421.64" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="GND38" gate="G$1" pin="1"/>
+<pinref part="GD2" gate="G$1" pin="1"/>
 <wire x1="421.64" y1="320.04" x2="421.64" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="312.42" x2="421.64" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="320.04" x2="421.64" y2="320.04" width="0.1524" layer="91"/>
 <junction x="421.64" y="320.04"/>
-<pinref part="GND26" gate="G$1" pin="1"/>
+<pinref part="GD1" gate="G$1" pin="1"/>
 <wire x1="416.56" y1="312.42" x2="421.64" y2="312.42" width="0.1524" layer="91"/>
 <junction x="421.64" y="312.42"/>
 </segment>
@@ -16642,7 +16642,7 @@ Parts Updated:
 <pinref part="P+15" gate="1" pin="+5V"/>
 <wire x1="416.56" y1="335.28" x2="421.64" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="335.28" x2="421.64" y2="342.9" width="0.1524" layer="91"/>
-<pinref part="5V1" gate="G$1" pin="1"/>
+<pinref part="5V." gate="G$1" pin="1"/>
 <wire x1="421.64" y1="342.9" x2="421.64" y2="345.44" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="342.9" x2="421.64" y2="342.9" width="0.1524" layer="91"/>
 <junction x="421.64" y="342.9"/>
@@ -17368,6 +17368,7 @@ Parts Updated:
 <approved hash="113,1,114.3,331.195,R27,,,,,"/>
 <approved hash="113,1,157.869,309.88,ON,,,,,"/>
 <approved hash="113,1,120.925,314.96,R26,,,,,"/>
+<approved hash="113,1,416.323,318.639,GD2,,,,,"/>
 <approved hash="113,1,271.78,319.546,L1,,,,,"/>
 <approved hash="113,1,286.548,308.61,C13,,,,,"/>
 <approved hash="113,1,258.149,330.2,L2,,,,,"/>
@@ -17391,7 +17392,7 @@ Parts Updated:
 <approved hash="113,1,226.297,120.781,RX,,,,,"/>
 <approved hash="113,1,100.037,328.799,PWRCTL,,,,,"/>
 <approved hash="113,1,389.204,226.102,AUX,,,,,"/>
-<approved hash="113,1,416.323,341.499,5V1,,,,,"/>
+<approved hash="113,1,416.323,341.499,5V.,,,,,"/>
 <approved hash="113,1,267.482,171.581,OFFSW,,,,,"/>
 </errors>
 </schematic>
