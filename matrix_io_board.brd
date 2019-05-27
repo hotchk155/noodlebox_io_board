@@ -158,7 +158,7 @@
 <wire x1="50.673" y1="18.0975" x2="50.673" y2="16.0655" width="0.254" layer="21"/>
 <wire x1="100.457" y1="13.716" x2="93.6625" y2="13.716" width="0.254" layer="21"/>
 <wire x1="93.6625" y1="13.716" x2="93.6625" y2="12.319" width="0.254" layer="21"/>
-<text x="86.6775" y="28.6385" size="1.778" layer="52" font="vector" ratio="20" rot="MR180">matrix synth i/o board rev 1</text>
+<text x="86.6775" y="28.6385" size="1.778" layer="52" font="vector" ratio="20" rot="MR180">matrix synth i/o board rev 2</text>
 </plain>
 <libraries>
 <library name="jason_eagle6">
@@ -3109,7 +3109,6 @@ design rules under a new name.</description>
 <via x="83.566" y="6.858" extent="1-16" drill="0.6" diameter="0.3048"/>
 <wire x1="83.566" y1="6.858" x2="81.5721" y2="6.858" width="0.3048" layer="1"/>
 <wire x1="81.5721" y1="6.858" x2="81.5086" y2="6.9215" width="0.3048" layer="1"/>
-<wire x1="82.169" y1="6.858" x2="81.915" y2="7.112" width="0.3048" layer="16"/>
 <wire x1="128.27" y1="1.27" x2="128.27" y2="10.795" width="0.3048" layer="16"/>
 <wire x1="128.27" y1="10.795" x2="123.952" y2="15.113" width="0.3048" layer="16"/>
 <wire x1="123.952" y1="15.113" x2="91.694" y2="15.113" width="0.3048" layer="16"/>
@@ -3117,7 +3116,6 @@ design rules under a new name.</description>
 <wire x1="89.789" y1="13.208" x2="89.789" y2="7.239" width="0.3048" layer="16"/>
 <wire x1="89.408" y1="6.858" x2="83.566" y2="6.858" width="0.3048" layer="16"/>
 <wire x1="89.789" y1="7.239" x2="89.408" y2="6.858" width="0.3048" layer="16"/>
-<wire x1="81.5721" y1="6.858" x2="81.915" y2="7.112" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GATE3">
 <contactref element="IC5" pad="7"/>
