@@ -158,7 +158,7 @@
 <wire x1="50.673" y1="18.0975" x2="50.673" y2="16.0655" width="0.254" layer="21"/>
 <wire x1="100.457" y1="13.716" x2="93.6625" y2="13.716" width="0.254" layer="21"/>
 <wire x1="93.6625" y1="13.716" x2="93.6625" y2="12.319" width="0.254" layer="21"/>
-<text x="86.6775" y="28.6385" size="1.778" layer="52" font="vector" ratio="20" rot="MR180">matrix synth i/o board rev 2</text>
+<text x="76.5175" y="28.6385" size="1.778" layer="52" font="vector" ratio="20" rot="MR180">matrix sequencer i/o board rev 2</text>
 </plain>
 <libraries>
 <library name="jason_eagle6">
