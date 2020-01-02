@@ -148,41 +148,6 @@
 <libraries>
 <library name="jason_eagle6">
 <packages>
-<package name="VERTICAL_3_5MM_SOCKET">
-<pad name="2" x="0" y="-3.75" drill="2.5" diameter="4"/>
-<pad name="4" x="0" y="3.75" drill="2.5" diameter="4"/>
-<pad name="3" x="4.25" y="-0.25" drill="1.5" diameter="3.2" rot="R90"/>
-<wire x1="-4.5" y1="5" x2="4.5" y2="5" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-2" x2="5.5" y2="4" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="-2" x2="-5.5" y2="4" width="0.127" layer="21"/>
-<circle x="0.039" y="-0.047" radius="1.8" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-5" x2="2.5" y2="-5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="5" x2="5.5" y2="4" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="4" x2="-4.5" y2="5" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="-2" x2="-2.5" y2="-5" width="0.127" layer="21" curve="90"/>
-<wire x1="2.5" y1="-5" x2="5.5" y2="-2" width="0.127" layer="21" curve="90"/>
-<circle x="0.039" y="-0.047" radius="3.5" width="0.127" layer="21"/>
-<text x="-2.54" y="-7.62" size="1.27" layer="21">&gt;NAME</text>
-</package>
-<package name="PJ301CM">
-<pad name="S" x="4.4" y="0.8" drill="2.2" diameter="4"/>
-<pad name="T" x="0" y="-4.5" drill="2.2" diameter="4"/>
-<pad name="R" x="0" y="3.3" drill="2.2" diameter="4"/>
-<circle x="0" y="0" radius="1.8" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="21" curve="90"/>
-<wire x1="-4" y1="-5.7" x2="-4" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-1.4" x2="-4" y2="1.4" width="0.127" layer="21"/>
-<wire x1="-4" y1="1.4" x2="-4" y2="4.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="4.5" x2="4.5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="-4" y1="-5.7" x2="4.5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="-4" y1="4.5" x2="4.5" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="3" x2="-4" y2="1.4" width="0.127" layer="21" curve="25.709954"/>
-<wire x1="-3" y1="-3" x2="-4" y2="-1.4" width="0.127" layer="21" curve="-25.709954"/>
-<text x="-4.6" y="-3.4" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-</package>
 <package name="PWR_SOCKET_2_1MM">
 <circle x="0" y="0" radius="5.4" width="0.127" layer="21"/>
 <pad name="BARREL" x="0" y="4.2" drill="3" diameter="5"/>
@@ -328,37 +293,30 @@ Source: http://focus.ti.com/lit/ds/symlink/sn74lvc1g3157.</description>
 <rectangle x1="-1.35" y1="-1.85" x2="-0.55" y2="-0.75" layer="29" rot="R180"/>
 <rectangle x1="-1.375" y1="-0.75" x2="-0.625" y2="0" layer="21"/>
 </package>
-<package name="OFFSET-PINS">
-<pad name="P$1" x="-0.95" y="3.3" drill="2.5"/>
-<pad name="P$2" x="-0.95" y="-4.5" drill="2.5"/>
-<pad name="P$3" x="4.4" y="0.8" drill="2.5"/>
-<wire x1="-4" y1="-5.7" x2="4.5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="-4" y1="4.5" x2="4.5" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="4.5" x2="-4" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="4.5" y1="4.5" x2="4.5" y2="-5.7" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
-<text x="-5.08" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<package name="WQP-PJ301M-ST">
+<wire x1="-5" y1="6" x2="-1.5" y2="6" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="6" x2="1.5" y2="6" width="0.127" layer="21"/>
+<wire x1="1.5" y1="6" x2="5" y2="6" width="0.127" layer="21"/>
+<wire x1="-5" y1="6" x2="-5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-4.5" x2="0.2" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-4.5" x2="5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-4.5" x2="5" y2="6" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.162275" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="6" x2="-1.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="4" x2="1.5" y2="4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="4" x2="1.5" y2="6" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="5" drill="1.1" thermals="no"/>
+<pad name="P$2" x="0" y="-3.5" drill="1.1"/>
+<pad name="P$3" x="0" y="-6.5" drill="1.1"/>
+<circle x="0" y="0" radius="2.690721875" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-4.6" x2="-0.2" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-6.7" x2="0.2" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-6.7" x2="0.2" y2="-4.5" width="0.127" layer="21"/>
+<rectangle x1="-2.8" y1="-2.8" x2="2.8" y2="2.8" layer="41"/>
+<text x="-5.2498" y="-3.6704" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="STEREO_NOSWITCH_JACK">
-<pin name="3" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="4" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="2" x="10.16" y="2.54" length="middle" rot="R180"/>
-<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.302" y="3.302" size="1.778" layer="94">&gt;NAME</text>
-</symbol>
 <symbol name="PWR_SOCKET">
 <pin name="PIN" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="NC" x="12.7" y="2.54" length="middle" rot="R180"/>
@@ -455,45 +413,24 @@ Source: http://focus.ti.com/lit/ds/symlink/sn74lvc1g3157.</description>
 <wire x1="7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="-7.62" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
+<symbol name="JACK_ST">
+<wire x1="-2.54" y1="2.54" x2="-1.016" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="1.016" x2="-0.254" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="4.572" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.508" x2="7.874" y2="0.508" layer="94" rot="R90"/>
+<pin name="R" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="T" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="S" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<wire x1="-2.54" y1="0" x2="2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="0" x2="2.54" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.508" x2="3.048" y2="0" width="0.1524" layer="94"/>
+<text x="-3.556" y="-1.524" size="1.27" layer="94">S</text>
+<text x="-3.556" y="1.016" size="1.27" layer="94">T</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="VERTICAL_3_5MM_SOCKET" prefix="X">
-<gates>
-<gate name="G$1" symbol="STEREO_NOSWITCH_JACK" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="VERTICAL_3_5MM_SOCKET">
-<connects>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="THONK" package="PJ301CM">
-<connects>
-<connect gate="G$1" pin="2" pad="S"/>
-<connect gate="G$1" pin="3" pad="R"/>
-<connect gate="G$1" pin="4" pad="T"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="ASSS" package="OFFSET-PINS">
-<connects>
-<connect gate="G$1" pin="2" pad="P$1"/>
-<connect gate="G$1" pin="3" pad="P$2"/>
-<connect gate="G$1" pin="4" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PWR_SOCKET_2_1MM">
 <gates>
 <gate name="G$1" symbol="PWR_SOCKET" x="-7.62" y="-2.54"/>
@@ -630,6 +567,23 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 <connect gate="G$1" pin="2Y" pad="4"/>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THONKICONN_STEREO">
+<gates>
+<gate name="G$1" symbol="JACK_ST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WQP-PJ301M-ST">
+<connects>
+<connect gate="G$1" pin="R" pad="P$2"/>
+<connect gate="G$1" pin="S" pad="P$3"/>
+<connect gate="G$1" pin="T" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15599,8 +15553,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="MIDIOUT" library="jason_eagle6" deviceset="VERTICAL_3_5MM_SOCKET" device="ASSS" value="VERTICAL_3_5MM_SOCKETASSS"/>
-<part name="MIDIIN" library="jason_eagle6" deviceset="VERTICAL_3_5MM_SOCKET" device="ASSS" value="VERTICAL_3_5MM_SOCKETASSS"/>
 <part name="CKO" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="GT2" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="GT1" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
@@ -15625,6 +15577,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GD3" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GD4" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="MIDIOUT" library="jason_eagle6" deviceset="THONKICONN_STEREO" device=""/>
+<part name="MIDIIN" library="jason_eagle6" deviceset="THONKICONN_STEREO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15639,7 +15593,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <text x="117.856" y="147.574" size="3.81" layer="91">MIDI OUTPUT</text>
 <text x="359.156" y="117.094" size="3.81" layer="91">CLOCK INPUT</text>
 <text x="105.156" y="99.314" size="6.35" layer="91">NOODLEBOX I/O AND POWER BOARD</text>
-<text x="105.41" y="93.98" size="3.81" layer="91">Rev 3 -26 Nov19 - Sixty Four Pixels Ltd</text>
+<text x="105.41" y="93.98" size="3.81" layer="91">Rev 4 - 2 Jan 2020 - Sixty Four Pixels Ltd</text>
 </plain>
 <instances>
 <instance part="DC" gate="G$1" x="96.52" y="342.9"/>
@@ -15782,8 +15736,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="C11" gate="G$1" x="411.48" y="228.6" rot="R180"/>
 <instance part="C10" gate="G$1" x="416.56" y="228.6" rot="R180"/>
 <instance part="GND29" gate="1" x="396.24" y="215.9"/>
-<instance part="MIDIOUT" gate="G$1" x="121.92" y="167.64" rot="MR180"/>
-<instance part="MIDIIN" gate="G$1" x="121.92" y="134.62" rot="MR180"/>
 <instance part="CKO" gate="G$1" x="444.5" y="251.46" rot="MR180"/>
 <instance part="GT2" gate="G$1" x="444.5" y="241.3" rot="MR180"/>
 <instance part="GT1" gate="G$1" x="444.5" y="231.14" rot="MR180"/>
@@ -15808,6 +15760,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="GND22" gate="1" x="335.28" y="129.54"/>
 <instance part="GD3" gate="G$1" x="429.26" y="327.66"/>
 <instance part="GD4" gate="G$1" x="429.26" y="320.04"/>
+<instance part="MIDIOUT" gate="G$1" x="121.92" y="170.18" rot="R180"/>
+<instance part="MIDIIN" gate="G$1" x="121.92" y="137.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15831,9 +15785,9 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="160.02" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="132.588" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
 <junction x="160.02" y="129.54"/>
-<pinref part="MIDIIN" gate="G$1" pin="4"/>
-<wire x1="132.08" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="134.62" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="MIDIIN" gate="G$1" pin="T"/>
+<wire x1="127" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -16144,10 +16098,10 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="335.28" y1="132.08" x2="335.28" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MIDIOUT" gate="G$1" pin="2"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-<wire x1="132.08" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="165.1" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="MIDIOUT" gate="G$1" pin="R"/>
+<wire x1="127" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="172.72" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -16253,8 +16207,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="162.56" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="MIDIOUT" gate="G$1" pin="4"/>
-<wire x1="137.16" y1="167.64" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="MIDIOUT" gate="G$1" pin="T"/>
 </segment>
 </net>
 <net name="MIDI_OUT" class="0">
@@ -16877,17 +16831,17 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="139.7" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="MIDIIN" gate="G$1" pin="3"/>
-<wire x1="139.7" y1="137.16" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="MIDIIN" gate="G$1" pin="S"/>
+<wire x1="127" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="MIDIOUT" gate="G$1" pin="3"/>
-<wire x1="132.08" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="170.18" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="MIDIOUT" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$16" class="0">
