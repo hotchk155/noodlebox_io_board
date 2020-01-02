@@ -15591,7 +15591,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="PWRCTL" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="5V." library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="OFFSW" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="470k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -15618,7 +15618,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="IC2" library="jason_eagle6" deviceset="SN74LVC2G14" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="470k"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="D4" library="jasons_stuff" deviceset="0805DIODE" device=""/>
 <part name="D5" library="jasons_stuff" deviceset="0805DIODE" device=""/>
 <part name="RSIN" library="pinhead" deviceset="PINHD-1X1" device=""/>
@@ -16967,30 +16967,30 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,223.52,271.78,IC3P,V+,+9V,,,"/>
-<approved hash="104,1,238.76,271.78,IC3P,V-,GND,,,"/>
-<approved hash="104,1,154.94,266.7,IC4,VDD,+5V,,,"/>
-<approved hash="104,1,185.42,266.7,IC4,VSS,GND,,,"/>
-<approved hash="104,1,347.98,269.24,IC5P,VCC,+5V,,,"/>
-<approved hash="104,1,363.22,264.16,IC5P,VDD,+10V,,,"/>
-<approved hash="104,1,337.82,154.94,IIC2,VCC,+5V,,,"/>
+<approved hash="104,1,223.52,271.78,IC4P,V+,+9V,,,"/>
+<approved hash="104,1,238.76,271.78,IC4P,V-,GND,,,"/>
+<approved hash="104,1,154.94,266.7,IC5,VDD,+5V,,,"/>
+<approved hash="104,1,185.42,266.7,IC5,VSS,GND,,,"/>
+<approved hash="104,1,347.98,269.24,IC6P,VCC,+5V,,,"/>
+<approved hash="104,1,363.22,264.16,IC6P,VDD,+10V,,,"/>
+<approved hash="104,1,337.82,154.94,IC2,VCC,+5V,,,"/>
 <approved hash="113,1,279.722,156.21,PWR,,,,,"/>
 <approved hash="113,1,416.323,333.879,5V,,,,,"/>
 <approved hash="113,1,416.323,326.259,GD2,,,,,"/>
-<approved hash="113,1,229.87,280.16,CC14,,,,,"/>
-<approved hash="113,1,185.867,308.61,CC22,,,,,"/>
-<approved hash="113,1,262.067,308.61,CC20,,,,,"/>
+<approved hash="113,1,229.87,279.241,C14,,,,,"/>
+<approved hash="113,1,184.948,308.61,C22,,,,,"/>
+<approved hash="113,1,261.148,308.61,C20,,,,,"/>
 <approved hash="113,1,251.849,157.48,OFF,,,,,"/>
 <approved hash="113,1,157.869,309.88,ON,,,,,"/>
 <approved hash="113,1,416.323,318.639,GD1,,,,,"/>
 <approved hash="113,1,271.78,319.546,L1,,,,,"/>
-<approved hash="113,1,287.467,308.61,CC19,,,,,"/>
+<approved hash="113,1,286.548,308.61,C19,,,,,"/>
 <approved hash="113,1,258.149,330.2,L2,,,,,"/>
 <approved hash="113,1,101.363,366.899,BATT+,,,,,"/>
 <approved hash="113,1,101.363,359.279,BATT-,,,,,"/>
-<approved hash="113,1,238,242.57,CC15,,,,,"/>
-<approved hash="113,1,238,227.33,CC17,,,,,"/>
-<approved hash="113,1,238,212.09,CC16,,,,,"/>
+<approved hash="113,1,238.919,242.57,C15,,,,,"/>
+<approved hash="113,1,238.919,227.33,C17,,,,,"/>
+<approved hash="113,1,238.919,212.09,C16,,,,,"/>
 <approved hash="113,1,108.983,265.299,SCL,,,,,"/>
 <approved hash="113,1,108.983,255.139,SDA,,,,,"/>
 <approved hash="113,1,312.183,217.039,G3,,,,,"/>
