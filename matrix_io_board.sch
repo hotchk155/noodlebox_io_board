@@ -15519,8 +15519,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="C19" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="jason_eagle6" deviceset="NB_IND" device=""/>
-<part name="BATT+" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="BATT-" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="BT+" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="BT-" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
@@ -15702,8 +15702,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="C19" gate="G$1" x="284.48" y="309.88"/>
 <instance part="GND41" gate="1" x="284.48" y="299.72"/>
 <instance part="L2" gate="G$1" x="259.08" y="330.2" rot="R90"/>
-<instance part="BATT+" gate="G$1" x="99.06" y="368.3" rot="R180"/>
-<instance part="BATT-" gate="G$1" x="99.06" y="360.68" rot="R180"/>
+<instance part="BT+" gate="G$1" x="99.06" y="368.3" rot="R180"/>
+<instance part="BT-" gate="G$1" x="99.06" y="360.68" rot="R180"/>
 <instance part="C1" gate="G$1" x="335.28" y="147.32"/>
 <instance part="P+13" gate="1" x="335.28" y="170.18"/>
 <instance part="GND43" gate="1" x="368.3" y="129.54"/>
@@ -16011,7 +16011,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="DC" gate="G$1" pin="PIN"/>
 <wire x1="109.22" y1="347.98" x2="111.76" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="347.98" x2="111.76" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="BATT-" gate="G$1" pin="1"/>
+<pinref part="BT-" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="360.68" x2="111.76" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="347.98" x2="111.76" y2="360.68" width="0.1524" layer="91"/>
 <junction x="111.76" y="347.98"/>
@@ -16846,7 +16846,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="BATT+" gate="G$1" pin="1"/>
+<pinref part="BT+" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="368.3" x2="114.3" y2="368.3" width="0.1524" layer="91"/>
 <pinref part="DC" gate="G$1" pin="NC"/>
 <wire x1="109.22" y1="345.44" x2="114.3" y2="345.44" width="0.1524" layer="91"/>
