@@ -418,16 +418,17 @@ Source: http://focus.ti.com/lit/ds/symlink/sn74lvc1g3157.</description>
 <wire x1="-1.016" y1="1.016" x2="-0.254" y2="1.778" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="4.572" y2="-2.54" width="0.1524" layer="94"/>
 <text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.508" x2="7.874" y2="0.508" layer="94" rot="R90"/>
-<pin name="R" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="S" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
 <pin name="T" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="S" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="R" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 <wire x1="-2.54" y1="0" x2="2.032" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.032" y1="0" x2="2.54" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0.508" x2="3.048" y2="0" width="0.1524" layer="94"/>
-<text x="-3.556" y="-1.524" size="1.27" layer="94">S</text>
+<text x="-3.556" y="-1.524" size="1.27" layer="94">R</text>
 <text x="-3.556" y="1.016" size="1.27" layer="94">T</text>
+<text x="-3.556" y="-1.524" size="1.27" layer="94">R</text>
+<text x="-3.556" y="-4.064" size="1.27" layer="94">S</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -14725,27 +14726,6 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOD-123_MINI-SMA">
-<description>&lt;b&gt;Molded plasitc,JEDEC SOD-123/Mini SMA&lt;/b&gt;&lt;p&gt;
-Source: Comchip CGRM4001-G.pdf</description>
-<wire x1="-1.8725" y1="0.835" x2="1.8725" y2="0.835" width="0.127" layer="51"/>
-<wire x1="-1.8725" y1="-0.835" x2="1.8725" y2="-0.835" width="0.127" layer="51"/>
-<wire x1="-0.3175" y1="0" x2="0.3175" y2="-0.4763" width="0.127" layer="21"/>
-<wire x1="0.3175" y1="-0.4763" x2="0.3175" y2="0" width="0.127" layer="21"/>
-<wire x1="0.3175" y1="0" x2="0.3175" y2="0.4763" width="0.127" layer="21"/>
-<wire x1="0.3175" y1="0.4763" x2="-0.3175" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.3175" y1="0" x2="-0.3175" y2="-0.4763" width="0.127" layer="21"/>
-<wire x1="-0.3175" y1="0" x2="-0.3175" y2="0.4763" width="0.127" layer="21"/>
-<wire x1="0.3175" y1="0" x2="0.5613" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.3175" y1="0" x2="-0.5613" y2="0" width="0.127" layer="21"/>
-<smd name="A" x="1.8" y="0" dx="1.5" dy="2.1" layer="1" rot="R180"/>
-<smd name="C" x="-1.8" y="0" dx="1.5" dy="2.1" layer="1" rot="R180"/>
-<text x="-3.048" y="1.143" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.048" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.95" y1="-0.9" x2="-1.5875" y2="0.9" layer="51"/>
-<rectangle x1="1.5875" y1="-0.9" x2="1.95" y2="0.9" layer="51"/>
-<rectangle x1="-1.0249" y1="-0.9" x2="-0.6625" y2="0.9" layer="51"/>
-</package>
 <package name="SOD123">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>
 <wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
@@ -14777,30 +14757,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CGRM400*-G" prefix="D">
-<description>&lt;b&gt;Molded plasitc,JEDEC SOD-123/Mini SMA&lt;/b&gt;&lt;p&gt;
-Source: Comchip CGRM4001-G.pdf</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD-123_MINI-SMA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="1"/>
-<technology name="2"/>
-<technology name="3"/>
-<technology name="4"/>
-<technology name="5"/>
-<technology name="6"/>
-<technology name="7"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MBR0520LT" prefix="D">
 <description>&lt;b&gt;SCHOTTKY BARRIER RECTIFIER&lt;/b&gt;&lt;p&gt;
 Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
@@ -15458,15 +15414,14 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="IC7" library="jason_eagle6" deviceset="SP34063A_BOOST_REG" device=""/>
 <part name="R29" library="rcl" deviceset="R-EU_" device="R0805" value="0r33"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C22" library="rcl" deviceset="CPOL-EU" device="D"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="3k"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="470p"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="D7" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C20" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C20" library="rcl" deviceset="CPOL-EU" device="D"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -15516,7 +15471,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="GD1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="1210"/>
-<part name="C19" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C19" library="rcl" deviceset="CPOL-EU" device="D"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="jason_eagle6" deviceset="NB_IND" device=""/>
 <part name="BT+" library="pinhead" deviceset="PINHD-1X1" device=""/>
@@ -15547,11 +15502,11 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="OFFSW" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="CKO" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="GT2" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
@@ -15566,7 +15521,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="AUXO" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="AUXI" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="IC2" library="jason_eagle6" deviceset="SN74LVC2G14" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -15579,6 +15534,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <part name="GD4" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="MIDIOUT" library="jason_eagle6" deviceset="THONKICONN_STEREO" device=""/>
 <part name="MIDIIN" library="jason_eagle6" deviceset="THONKICONN_STEREO" device=""/>
+<part name="D7" library="diode" deviceset="MBR0520LT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15593,7 +15549,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <text x="117.856" y="147.574" size="3.81" layer="91">MIDI OUTPUT</text>
 <text x="359.156" y="117.094" size="3.81" layer="91">CLOCK INPUT</text>
 <text x="105.156" y="99.314" size="6.35" layer="91">NOODLEBOX I/O AND POWER BOARD</text>
-<text x="105.41" y="93.98" size="3.81" layer="91">Rev 4 - 2 Jan 2020 - Sixty Four Pixels Ltd</text>
+<text x="105.41" y="93.98" size="3.81" layer="91">Rev 5 - 18 Feb 2020 - Sixty Four Pixels Ltd</text>
+<text x="105.41" y="88.9" size="3.81" layer="91">CC-NC-BY-SA Commercial Use Not Allowed</text>
 </plain>
 <instances>
 <instance part="DC" gate="G$1" x="96.52" y="342.9"/>
@@ -15646,7 +15603,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="R31" gate="G$1" x="218.44" y="317.5" rot="R180"/>
 <instance part="C21" gate="G$1" x="241.3" y="332.74"/>
 <instance part="GND9" gate="1" x="241.3" y="322.58"/>
-<instance part="D7" gate="G$1" x="246.38" y="330.2" rot="R90"/>
 <instance part="GND10" gate="1" x="246.38" y="322.58"/>
 <instance part="C20" gate="G$1" x="259.08" y="309.88"/>
 <instance part="GND11" gate="1" x="259.08" y="299.72"/>
@@ -15762,6 +15718,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="GD4" gate="G$1" x="429.26" y="320.04"/>
 <instance part="MIDIOUT" gate="G$1" x="121.92" y="170.18" rot="R180"/>
 <instance part="MIDIIN" gate="G$1" x="121.92" y="137.16" rot="R180"/>
+<instance part="D7" gate="G$1" x="246.38" y="330.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15902,8 +15859,8 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="246.38" y1="325.12" x2="246.38" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -16099,9 +16056,9 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="MIDIOUT" gate="G$1" pin="R"/>
-<wire x1="127" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="172.72" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="MIDIOUT" gate="G$1" pin="S"/>
+<wire x1="127" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -16449,13 +16406,13 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <net name="N$35" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="SW_E"/>
-<pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="233.68" y1="340.36" x2="246.38" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="340.36" x2="246.38" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="340.36" x2="259.08" y2="340.36" width="0.1524" layer="91"/>
 <junction x="246.38" y="340.36"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="335.28" x2="259.08" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -16829,19 +16786,19 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <net name="N$7" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="139.7" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="MIDIIN" gate="G$1" pin="S"/>
+<pinref part="MIDIIN" gate="G$1" pin="R"/>
+<wire x1="139.7" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="127" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="137.16" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="127" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="170.18" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="MIDIOUT" gate="G$1" pin="S"/>
+<pinref part="MIDIOUT" gate="G$1" pin="R"/>
+<wire x1="127" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -16940,8 +16897,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <approved hash="113,1,271.78,319.546,L1,,,,,"/>
 <approved hash="113,1,286.548,308.61,C19,,,,,"/>
 <approved hash="113,1,258.149,330.2,L2,,,,,"/>
-<approved hash="113,1,101.363,366.899,BATT+,,,,,"/>
-<approved hash="113,1,101.363,359.279,BATT-,,,,,"/>
 <approved hash="113,1,238.919,242.57,C15,,,,,"/>
 <approved hash="113,1,238.919,227.33,C17,,,,,"/>
 <approved hash="113,1,238.919,212.09,C16,,,,,"/>
