@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -17301,39 +17300,39 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <approved hash="104,1,363.22,264.16,IC6P,VDD,+10V,,,"/>
 <approved hash="104,1,337.82,154.94,IC2,VCC,+5V,,,"/>
 <approved hash="113,1,279.722,156.21,PWR,,,,,"/>
-<approved hash="113,1,416.323,333.784,5V,,,,,"/>
-<approved hash="113,1,416.323,326.164,GD2,,,,,"/>
+<approved hash="113,1,416.323,333.879,5V,,,,,"/>
+<approved hash="113,1,416.323,326.259,GD2,,,,,"/>
 <approved hash="113,1,229.87,279.241,C14,,,,,"/>
-<approved hash="113,1,184.88,308.61,C22,,,,,"/>
-<approved hash="113,1,261.08,308.61,C20,,,,,"/>
-<approved hash="113,1,251.755,157.48,OFF,,,,,"/>
-<approved hash="113,1,157.775,309.88,ON,,,,,"/>
-<approved hash="113,1,416.323,318.544,GD1,,,,,"/>
+<approved hash="113,1,184.948,308.61,C22,,,,,"/>
+<approved hash="113,1,261.148,308.61,C20,,,,,"/>
+<approved hash="113,1,251.849,157.48,OFF,,,,,"/>
+<approved hash="113,1,157.869,309.88,ON,,,,,"/>
+<approved hash="113,1,416.323,318.639,GD1,,,,,"/>
 <approved hash="113,1,271.78,319.546,L1,,,,,"/>
-<approved hash="113,1,286.48,308.61,C19,,,,,"/>
-<approved hash="113,1,258.054,330.2,L2,,,,,"/>
-<approved hash="113,1,101.363,366.804,BT+,,,,,"/>
-<approved hash="113,1,101.363,359.184,BT-,,,,,"/>
+<approved hash="113,1,286.548,308.61,C19,,,,,"/>
+<approved hash="113,1,258.149,330.2,L2,,,,,"/>
+<approved hash="113,1,101.363,366.899,BT+,,,,,"/>
+<approved hash="113,1,101.363,359.279,BT-,,,,,"/>
 <approved hash="113,1,238.919,242.57,C15,,,,,"/>
 <approved hash="113,1,238.919,227.33,C17,,,,,"/>
 <approved hash="113,1,238.919,212.09,C16,,,,,"/>
-<approved hash="113,1,108.983,265.204,SCL,,,,,"/>
-<approved hash="113,1,108.983,255.044,SDA,,,,,"/>
-<approved hash="113,1,312.183,216.944,G3,,,,,"/>
-<approved hash="113,1,312.183,257.584,G2,,,,,"/>
-<approved hash="113,1,312.183,247.424,G1,,,,,"/>
-<approved hash="113,1,311.776,267.744,CKOUT,,,,,"/>
-<approved hash="113,1,311.776,237.264,RSOUT,,,,,"/>
-<approved hash="113,1,312.183,227.104,G4,,,,,"/>
-<approved hash="113,1,319.803,158.524,CLKIN,,,,,"/>
-<approved hash="113,1,185.657,164.056,TX,,,,,"/>
-<approved hash="113,1,226.297,120.876,RX,,,,,"/>
-<approved hash="113,1,100.037,328.704,PWRCTL,,,,,"/>
-<approved hash="113,1,416.323,341.404,5V.,,,,,"/>
-<approved hash="113,1,267.482,171.676,OFFSW,,,,,"/>
-<approved hash="113,1,319.803,148.364,RSIN,,,,,"/>
-<approved hash="113,1,426.957,329.156,GD3,,,,,"/>
-<approved hash="113,1,426.957,321.536,GD4,,,,,"/>
+<approved hash="113,1,108.983,265.299,SCL,,,,,"/>
+<approved hash="113,1,108.983,255.139,SDA,,,,,"/>
+<approved hash="113,1,312.183,217.039,G3,,,,,"/>
+<approved hash="113,1,312.183,257.679,G2,,,,,"/>
+<approved hash="113,1,312.183,247.519,G1,,,,,"/>
+<approved hash="113,1,311.776,267.839,CKOUT,,,,,"/>
+<approved hash="113,1,311.776,237.359,RSOUT,,,,,"/>
+<approved hash="113,1,312.183,227.199,G4,,,,,"/>
+<approved hash="113,1,319.803,158.619,CLKIN,,,,,"/>
+<approved hash="113,1,185.657,163.961,TX,,,,,"/>
+<approved hash="113,1,226.297,120.781,RX,,,,,"/>
+<approved hash="113,1,100.037,328.799,PWRCTL,,,,,"/>
+<approved hash="113,1,416.323,341.499,5V.,,,,,"/>
+<approved hash="113,1,267.482,171.581,OFFSW,,,,,"/>
+<approved hash="113,1,319.803,148.459,RSIN,,,,,"/>
+<approved hash="113,1,426.957,329.061,GD3,,,,,"/>
+<approved hash="113,1,426.957,321.441,GD4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
