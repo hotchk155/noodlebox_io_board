@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -36,10 +37,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -48,7 +49,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -56,7 +57,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="yes"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="yes"/>
-<layer number="90" name="Modules" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -4583,16 +4584,23 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -4701,11 +4709,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.547" y="34.29" size="1.016" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="IC1" library="optocoupler" package="DIL08" value="6N138" x="15.875" y="8.89" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="35K5294" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="6N138" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="9860150" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="6N138" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.986" y="2.413" size="1.016" layer="25" font="vector" ratio="20"/>
+<attribute name="OC_FARNELL" value="9860150" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="35K5294" x="15.875" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="rcl" package="R0805" value="220" x="8.89" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.112" y="15.621" size="1.016" layer="21" font="vector" ratio="20" rot="R270"/>
@@ -4840,11 +4848,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="114.3" y="14.351" size="1.016" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="OFF" library="switch-omron" package="B3F-10XX" value="" x="151.13" y="20.32" smashed="yes">
-<attribute name="OC_NEWARK" value="36M3542" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="B3F-1000" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="176432" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B3F-1000" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="149.86" y="15.621" size="1.016" layer="25" font="vector" ratio="20"/>
+<attribute name="OC_FARNELL" value="176432" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="36M3542" x="151.13" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="148.082" y="15.24" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="IC8" library="jason_eagle6" package="SOIC8" value="FDS8958B" x="134.239" y="27.432" smashed="yes" rot="R270">
@@ -4857,11 +4865,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="131.953" y="32.766" size="1.016" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="ON" library="switch-omron" package="B3F-10XX" value="" x="135.89" y="20.32" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="36M3542" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B3F-1000" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="176432" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B3F-1000" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="132.588" y="20.955" size="1.016" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="OC_FARNELL" value="176432" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="36M3542" x="135.89" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="138.938" y="25.4" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R32" library="rcl" package="R0805" value="10k" x="134.239" y="36.449" smashed="yes" rot="R180">
@@ -6216,8 +6224,15 @@ design rules under a new name.</description>
 <wire x1="108.077" y1="14.097" x2="108.458" y2="14.478" width="0.254" layer="16"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
-<approved hash="5,1,71960365ef662176"/>
+<approved hash="5,1,020b138a9b541c76"/>
 </errors>
 </board>
 </drawing>
